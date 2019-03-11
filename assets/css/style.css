@@ -1,0 +1,71 @@
+/*Navbarstyles -----------------------------------------------------*/
+
+/*main styles ------------------------------------------------------*/
+
+.pageheader {
+    border-bottom-color: black;
+    padding: 12px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*History Styles-----------------------------------------------------*/
+
+.members-history {
+    display: inline-block;
+}
+
+
+
+.history2 {
+    display: inline-block;
+    margin: 30px;
+
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+.member {
+    padding: 15px;
+
+}
+
+hr {
+    border: 0;
+    width: 80%;
+    color: #f00;
+    background-color: #f00;
+    height: 5px;
+}
+
+
+
+
+
+
+/*footer styles --------------------------------------------*/
+
+.learn-more {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
