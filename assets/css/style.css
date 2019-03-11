@@ -2,60 +2,48 @@
 
 /*main styles ------------------------------------------------------*/
 
-.pageheader {
-    border-bottom-color: black;
-    padding: 12px;
-
-
+.page-header {
+    padding: 15px 12px;
+    margin: 5 2 5 2;
+    display: block;
+    background-color: #cccccc;
 }
 
 
+/*About Styles-----------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-/*History Styles-----------------------------------------------------*/
-
-.members-history {
-    display: inline-block;
+.history-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutcol {
+    flex: 25%;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
-
-
-.history2 {
-    display: inline-block;
-    margin: 30px;
-
-    padding: 15px;
-    text-align: center;
-
-
+.cent {
+    float: left;
+    max-width: 100%;
+    height: auto;
 }
 
-.member {
-    padding: 15px;
-
+@media screen and (max-width:992px) {
+    .aboutcol {
+        flex: 50%;
+        flex-wrap: wrap;
+    }
 }
 
-hr {
-    border: 0;
-    width: 80%;
-    color: #f00;
-    background-color: #f00;
-    height: 5px;
+@media screen and (max-width: 600px) {
+    .aboutcol {
+        flex: 100%;
+        flex-wrap: wrap;
+    }
+    .imgright {
+        float: top !important;
+    }
 }
-
-
-
-
 
 
 /*footer styles --------------------------------------------*/
@@ -69,3 +57,4 @@ hr {
     display: inline-block;
     font-size: 16px;
 }
+
