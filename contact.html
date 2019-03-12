@@ -20,7 +20,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse ml=auto" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse in" id="navbarSupportedContent">
             <ul class="navbar-nav ">
                 <li class="nav-item active ml-auto">
                     <a class="nav-link" href="index.html"><i class="fa fa-home"></i>  Home <span class="sr-only">(current)</span></a>
@@ -41,8 +41,75 @@
         </div>
     </nav>
 
+    <div class="container-fluid page-header">
+        <h1 class="text-uppercase">Contact Page</h1>
+        <h6>We're available to be hired for your private function and weddings!</h6>
+        <hr class="break">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col aboutcol">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ullam, tenetur molestiae vel atque corporis obcaecati nobis amet adipisci repellat omnis, beatae esse reprehenderit voluptatem iusto explicabo, autem saepe quidem.</p>
+            </div>
+            <div class="col input-form">
+                <form>
+                    <div class="box">
+                        <div class="form-group">
+                            <label for="controlinput1">First name</label>
+                            <input type="name" class="form-control" id="Name-Input" placeholder="John" required/>
+                            <div class="valid-feedback">Great</div>
+                            <label for="email">Email address</label>
+                            <input type="name" class="form-control" id="Email-Input" placeholder="john.doe@example.com" required/>
+                            <div class="valid-feedback">Great</div>
+                            <label for="reason">Reason for contact?</label>
+                            <select class="form-control" id="reason">
+                                <option>General enquiries</option>
+                                <option>Wedding</option>
+                                <option>Private function</option>
+                                <option>Gig enquiries</option>
+                            </select>
+                            <label for="Text-Area">A short message!</label>
+                            <textarea class="form-control" id="text-area" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr class="break">
+    <div class="container quotes-container">
+        <section class="quotes">
+            <div class="row">
+                <div class="page-header">
+                    <h2>Our previous customers:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col quotecol d-none d-md-block">
+                    <!--- Daniel Xavier / Pexels --->
+                    <img src="../assets/images/man.jpg" class="img-circle" height=100 width=100></img>
+                </div>
+                <div class="col quotecol">
+                    <blockquote class="quote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, laboriosam!</p>
+                        <footer>John Doe on <cite title="Twitter">Twitter</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col quotecol d-none d-md-block">
+                    <!--- Bruce Mars / Pexels --->
+                    <img src="../assets/images/woman.jpg" class="img-circle" height=100 width=100></img>
+                </div>
+                <div class="col quotecol">
+                    <blockquote class="quote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, laboriosam!</p>
+                        <footer>John Doe on <cite title="Facebook">Facebook</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
 
-
+    </div>
 
 
 

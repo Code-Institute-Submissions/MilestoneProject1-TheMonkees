@@ -33,8 +33,12 @@ This page is dedicated to the history of the members of the band and
 how they formed/ met etc. this is a page for the people that would like to know
 more about them rather than just listen to the band playing.
 
-
-
+### Contact Page
+This page is for fans requesting conversation or booking The Monkees for a private
+function. This will contain testimonials from a couple of fans who have hired 
+the band and will have a contact form requiring user input to function correctly.
+*photo credit of the woman to Daniel Xavier (Pexels)*
+*photo credit of the man to Bruce Mars (Pexels)*
 
 ## Features to be implemented##
 Please find below a short list of items yet to be implemented to the site.
@@ -51,7 +55,4 @@ and quite a few songs with information about that song and the time period
 available next to the image placeholder.
 
 
-### Contact Page
-This page is for fans requesting conversation or booking The Monkees for a private
-function. This will contain testimonials from a couple of fans who have hired 
-the band and will have a contact form requiring user input to function correctly.
+
