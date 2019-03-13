@@ -4,9 +4,15 @@
 
 /*main styles ------------------------------------------------------*/
 
-.break {}
+.break {
+    padding: 15px;
+    margin: 10px   ;
+}
 
-.halfbreak {}
+.halfbreak {
+    padding: 7.5px;
+    margin: 5px
+}
 
 .carousel {
     background-size: cover;
@@ -44,7 +50,11 @@
     float: left;
     max-width: 100%;
     height: auto;
-    font-family: "Roboto", sans-serif;
+
+}
+
+.contact-footer {
+    
 }
 
 @media screen and (max-width:992px) {
@@ -60,7 +70,7 @@
         flex-wrap: wrap;
     }
 }
-
+/*Discog styles --------------------------------------------*/
 
 
 /*contact us styles ----------------------------------------*/
@@ -84,6 +94,10 @@
     padding: 20px;
 }
 
+.quote {
+    
+}
+
 @media screen and (max-width:992px) {
     .quotecol {
         flex: 50%;
@@ -97,6 +111,8 @@
         flex-wrap: wrap;
     }
 }
+/*Events styles --------------------------------------------*/
+
 
 /*footer styles --------------------------------------------*/
 
