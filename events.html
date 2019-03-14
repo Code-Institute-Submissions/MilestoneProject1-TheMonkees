@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
         <a class="navbar-brand" href="#">
     <img src="../assets/images/Monkees-logo.png" width="75" height="70" class="d-inline-block align-top" alt="">
   </a>
@@ -40,13 +40,15 @@
             </ul>
         </div>
     </nav>
-    <h2 class="page-header">Events</h2>
-    <hr class="break">
+    <div>
+        <h2 class="page-header">Events</h2>
+        <hr class="break">
+    </div>
     <div id="carousel-events" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#eventsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#eventsCarousel" data-slide-to="1"></li>
+            <li data-target="#eventsCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -97,7 +99,7 @@
                 <h4 class="date">June 9</h4>
                 <p class="loc">Sunday, 20:00 @ Auckland, New Zealand - Great Hall, Auckland Town Hall</p>
             </div>
-            <div class="col aboutcol" >
+            <div class="col aboutcol">
                 <h4 class="date">June 10</h4>
                 <p class="loc">Monday 20:00 @ Wellington, New Zealend - Michael Fowler Centre</p>
             </div>
@@ -106,6 +108,7 @@
                 <p class="loc">Saturday 20:00 @ St Kilda, Australia - Palais Theatre</p>
             </div>
         </div>
+        <hr class="break">
     </div>
 
 
@@ -113,52 +116,58 @@
 
 
 
-
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-5"><a href="contact.html">Contact us</a></div>
-            <div class="col-sm-5">
-                <a target="_blank" href="https://www.ticketmaster.com/the-monkees-tickets/artist/735678" class="btn btn-success purchase" role="button">Purchase Tickets Here!!</a>
-            </div>
-            <div class="col-sm-2">
-                <h5 class="uppercase general-sub">Socials</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/TheMonkees/">
+    <div class="f-wrapper">
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-5"><a href="contact.html">Contact us</a>
+                    <footer>
+                        <p>
+                            <i class="fa fa-copyright">Copyright Daniel Ellis 2019</i>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-sm-5">
+                    <a target="_blank" href="https://www.ticketmaster.com/the-monkees-tickets/artist/735678" class="btn btn-success purchase" role="button">Purchase Tickets Here!!</a>
+                </div>
+                <div class="col-sm-2">
+                    <h5 class="uppercase general-sub">Socials</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/TheMonkees/">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/themonkees">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/themonkees">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item ">
-                        <a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck">
+                        </li>
+                        <li class="list-inline-item ">
+                            <a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/themonkees/?hl=en">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/themonkees/?hl=en">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/user/themonkees">
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/user/themonkees">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-    </footer>
-
+        </footer>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

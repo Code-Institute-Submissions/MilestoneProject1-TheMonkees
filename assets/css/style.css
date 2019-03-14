@@ -2,16 +2,40 @@
 
 /*Navbarstyles -----------------------------------------------------*/
 
+li a {
+    color: #9b60ff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #6b14ff;
+    color: #9b60ff;
+}
+
+.navbar-light {
+    background-color: #360A7F;
+}
+
+
 /*main styles ------------------------------------------------------*/
 
+body {
+    background-color: #5610CC !important;
+    color: #9B60FF !important;
+}
+
 .break {
+    background-color: #6b14ff;
+    color: #9b60ff;
     padding: 15px;
-    margin: 10px   ;
 }
 
 .halfbreak {
     padding: 7.5px;
-    margin: 5px
+    background-color: #9b60ff;
+
 }
 
 .carousel {
@@ -19,6 +43,7 @@
     min-height: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #5610CC;
 }
 
 
@@ -26,8 +51,9 @@
     padding: 15px 12px;
     margin: 5 2 5 2;
     display: block;
-    background-color: #cccccc;
+    background-color: #6b14ff;
     font-family: "Roboto", sans-serif;
+    color: #9B60FF;
 }
 
 
@@ -37,6 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
+    color: #9B60FF;
 }
 
 .aboutcol {
@@ -44,6 +71,8 @@
     padding: 20px;
     flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
+    color: #9B60FF;
+    background-color: #4E307F;
 }
 
 .cent {
@@ -51,12 +80,12 @@
     max-width: 100%;
     height: 240;
     width: 320;
-    
-
+    color: #9B60FF;
 }
 
 .contact-footer {
-    
+    color: white;
+    background-color: #6b14ff;
 }
 
 @media screen and (max-width:992px) {
@@ -72,14 +101,19 @@
         flex-wrap: wrap;
     }
 }
+
 /*Discog styles --------------------------------------------*/
 
+.mp4 {
+
+}
+
+.disco {}
 
 /*contact us styles ----------------------------------------*/
 
 .input-form {
     margin: 2 5 5 2;
-    border: dashed;
     border-color: black;
     padding: 20px;
 
@@ -89,15 +123,31 @@
     margin: 4;
     padding: 15px;
     font-family: "Roboto", sans-serif;
-
+    color: #9B60FF;
+    background-color: #5610CC;
 }
 
 .quotecol {
     padding: 20px;
+    color: #9B60FF;
 }
 
 .quote {
-    
+    color: #9B60FF;
+}
+
+.btn-primary {
+    background-color: #9B60FF !important;
+}
+
+.form-control {
+    background-color: #6B14FF;
+    color: #9B60FF;
+}
+
+.box {
+    background-color: #6B14FF;
+    color: #9B60FF;
 }
 
 @media screen and (max-width:992px) {
@@ -113,8 +163,17 @@
         flex-wrap: wrap;
     }
 }
+
 /*Events styles --------------------------------------------*/
 
+.date {}
+
+.loc {}
+
+.btn-success {
+    background-color: #5610CC;
+    color: #9B60FF;
+}
 
 /*footer styles --------------------------------------------*/
 
@@ -127,4 +186,14 @@
     display: inline-block;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
+}
+
+.footer-details {
+    background-color: #5610cc;
+}
+
+
+.f-wrapper {
+    background-color: #5610cc;
+    color: #9b60ff;
 }

@@ -64,6 +64,3 @@ such as:
 2. A more robust carousel on the front page, 
 3. A better contact form, 
 4. A more robust Discog library
-2. 
-
-
