@@ -48,16 +48,19 @@ This contain's a very simple photo carousel of events and a list of dates
 for a *"tour"* that will redirect the user to an external ticket site
 https://www.ticketmaster.com/the-monkees-tickets/artist/735678
  *credit for the ticket image go to "Grilled Cheese" here https://www.flickr.com/photos/grilledcheese/5986736168*
-
-
-## Features to be implemented##
-Please find below a short list of items yet to be implemented to the site.
-
+ 
 
 ### Discography
-This page will contain media that allows the user to browse through a video,
+This page contains media that allows the user to browse through a video,
 and quite a few songs with information about that song and the time period 
-available next to the image placeholder.
+available next to the image placeholder. This page is intended for users to 
+reminisce about The Monkees
 
+
+## Features to be Implemented (Further from the project)
+I have a few ideas of what to add to this project after I have submitted it,
+such as:
+1. a Calendar for the Events page, 2. A more robust carousel on the front page, 3. a better contact form, .4 A more robust Discog library
+2. 
 
 
