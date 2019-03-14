@@ -60,7 +60,10 @@ reminisce about The Monkees
 ## Features to be Implemented (Further from the project)
 I have a few ideas of what to add to this project after I have submitted it,
 such as:
-1. a Calendar for the Events page, 2. A more robust carousel on the front page, 3. a better contact form, .4 A more robust Discog library
+1. A Calendar for the Events page, 
+2. A more robust carousel on the front page, 
+3. A better contact form, 
+4. A more robust Discog library
 2. 
 
 
