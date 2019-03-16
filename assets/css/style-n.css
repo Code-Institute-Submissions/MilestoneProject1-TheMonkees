@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700|Exo:100,200,300,400,500,600,700');
+
+
+body,
+html {
+    height: 100%;
+}
+
+/*--------------------------------------Navbar Styles*/
+
+.n-wrapper .navbar {
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.carousel {
+    z-index: -1;
+}
+
+.logo {
+    padding: 10px;
+    margin: 5px;
+    max-height: 150px;
+    max-width: 100px;
+}
+
+
+.nav-item .nav-link {
+    color: #ffe4b5!important;
+    font-size: 24px;
+    padding: 16px;
+    margin: 2px 5px;
+    display: inline-block;
+}
+
+
+
+.navbar-toggler .ml-auto .custom-toggler {
+    right: 0;
+    top: 0;
+    float: right;
+}
+
+@media screen and (max-width: 640px){
+.navbar-nav{
+    color: #ffe4b5!important;
+    font-size: 12px;
+}
+.nav-item .nav-link {
+    color: #ffe4b5!important;
+    font-size: 16px;
+    padding: 2px;
+    margin: 2px 5px;
+    display: inline-block;
+}
+}    
+/* -------------------------- Below styles belong to here https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+    right: 0;
+    top: 0;
+    float: right;
+    color: 	#ffe4b5;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    right: 0;
+    top: 0;
+    float: right;
+
+}
+/*------------------------------------------------------------ Ending Here */
+/*------------------------------------- Index Styles */
+
+@media screen and (min-width: 641px) {
+    .d-block {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .d-block {
+        display: block;
+    }
+}
+
+.main {
+    background-color: #191919;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
