@@ -6,13 +6,25 @@ html {
     height: 100%;
 }
 
+a {
+    color: inherit;
+}
+
 /*--------------------------------------Navbar Styles*/
+
+
 
 .n-wrapper .navbar {
     position: absolute;
     top: 0;
     background-color: transparent;
     border: none;
+    font-family: "Exo" sans-serif;
+    display: flex;
+}
+
+.nb-wrapper   {
+    
 }
 
 .navbar {
@@ -30,13 +42,17 @@ html {
     max-width: 100px;
 }
 
+.nav-item {
+    
+}
 
 .nav-item .nav-link {
     color: #ffe4b5!important;
-    font-size: 24px;
-    padding: 16px;
-    margin: 2px 5px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 8px;
     display: inline-block;
+    font-family: "Roboto" sans-serif;
 }
 
 
@@ -45,39 +61,43 @@ html {
     right: 0;
     top: 0;
     float: right;
+    color: #ffe4b5;
 }
 
-@media screen and (max-width: 640px){
-.navbar-nav{
-    color: #ffe4b5!important;
-    font-size: 12px;
+@media screen and (max-width: 640px) {
+
+    
+    .navbar-nav {
+        color: #ffe4b5!important;
+        font-size: 12px;
+        font-family: "Roboto" sans-serif;
+        background-color: black;
+    }
+    .nav-item .nav-link .navbar-collapse{
+        color: #ffe4b5!important;
+        font-size: 16px;
+        padding: 2px;
+        margin: 2px 5px;
+        display: inline-block;
+        background-color: #191919!important;
+    }
 }
-.nav-item .nav-link {
-    color: #ffe4b5!important;
-    font-size: 16px;
-    padding: 2px;
-    margin: 2px 5px;
-    display: inline-block;
-}
-}    
+
 /* -------------------------- Below styles belong to here https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
 
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255, 102, 203);
-    right: 0;
-    top: 0;
-    float: right;
-    color: 	#ffe4b5;
-}
+
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,228,181, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     right: 0;
     top: 0;
     float: right;
-
+    font-family: "Roboto" sans-serif;
+    background-color: black;
 }
+
 /*------------------------------------------------------------ Ending Here */
+
 /*------------------------------------- Index Styles */
 
 @media screen and (min-width: 641px) {
@@ -92,9 +112,98 @@ html {
     }
 }
 
+
+
+.i-header {
+    padding: 6px 12px;
+    margin-left: 15px;
+    color: #ffe4b5;
+    font-family: "Roboto" sans-serif;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
 .main {
     background-color: #191919;
-    color: white;
+    color: #ffe4b5;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 16px;
+    font-family: "Roboto" sans-serif;
+}
+
+.fp-image {
+    height: 240px;
+    width: 180px;
+
+}
+
+@media screen and (max-width: 640px){
+.form-group {
+    padding-top: 16px;
+}
+
+}
+/*-------------------------------------------------------Footer Styles */
+
+.footer {
+    background-color: #ffe4b5;
+    padding: 10 15;
+    margin: 5;
+    border: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+    font-size: 16px;
+}
+
+.fa {
+    padding: 18px;
+    font-size: 26px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .fa {
+        padding: 10px;
+        font-size: 13px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+}
+
+.fa-spotify:hover {
+    background: #1DB954;
+    color: black;
+}
+
+.fa-instagram:hover {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
 }
