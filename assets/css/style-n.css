@@ -10,6 +10,13 @@ a {
     color: inherit;
 }
 
+.break {
+    width: 100%; 
+    color: black; 
+    height: 1px; 
+    background-color:#ffe4b5;
+}
+
 /*--------------------------------------Navbar Styles*/
 
 
@@ -52,7 +59,6 @@ a {
 }
 
 
-
 .navbar-toggler .ml-auto .custom-toggler {
     right: 0;
     top: 0;
@@ -62,7 +68,9 @@ a {
 
 @media screen and (max-width: 640px) {
 
-    
+    .navbar-toggler{
+        background-color: black!important;
+    }
     .navbar-nav {
         color: #ffe4b5!important;
         font-size: 12px;
@@ -189,7 +197,9 @@ a {
         text-align: center;
         text-decoration: none;
     }
-
+    .copyright {
+        padding-top: 8px;
+    }
 }
 
 .fa-spotify:hover {
