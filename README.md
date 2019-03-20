@@ -9,8 +9,10 @@ photos, and gain access to the social media of the band from the 60's
 I wanted to make it a streamline site, with users experience as my main focus,
 For Example as a fan of The Monkees I'd like to be able to hear their music,
 watch some videos and find out about the band. So i've incorporated an About
-and a Discography page. For users wanting a booking i've made a contact us page
-and a list of "potential" dates for events around the globe.
+and a Discography page. 
+
+For users wanting a booking i've made a contact us page and a list of "potential" dates 
+for events around the globe.
 
 My wireframes for this project can be found here https://app.moqups.com/r9Ff4a83jZ/view
 

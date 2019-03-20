@@ -11,15 +11,13 @@ a {
 }
 
 .break {
-    width: 100%; 
-    color: black; 
-    height: 1px; 
-    background-color:#ffe4b5;
+    width: 100%;
+    color: black;
+    height: 1px;
+    background-color: #ffe4b5;
 }
 
 /*--------------------------------------Navbar Styles*/
-
-
 
 .n-wrapper .navbar {
     position: absolute;
@@ -45,9 +43,6 @@ a {
     max-width: 100px;
 }
 
-.nav-item {
-    
-}
 
 .nav-item .nav-link {
     color: #ffe4b5!important;
@@ -68,7 +63,7 @@ a {
 
 @media screen and (max-width: 640px) {
 
-    .navbar-toggler{
+    .navbar-toggler {
         background-color: black!important;
     }
     .navbar-nav {
@@ -77,7 +72,7 @@ a {
         font-family: "Roboto" sans-serif;
         background-color: black;
     }
-    .nav-item .nav-link .navbar-collapse{
+    .nav-item .nav-link .navbar-collapse {
         color: #ffe4b5!important;
         font-size: 16px;
         padding: 2px;
@@ -88,8 +83,6 @@ a {
 }
 
 /* -------------------------- Below styles belong to here https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
-
-
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,228,181, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -141,25 +134,35 @@ a {
 
 }
 
-@media screen and (max-width: 640px){
-.form-group {
-    padding-top: 16px;
-}
+@media screen and (max-width: 640px) {
+    .form-group {
+        padding-top: 16px;
+    }
 
 }
 
 /*--------------------------------------------------------About Styles */
-@media screen and (max-width: 640px){
-.members {
-    display:flex;
-    justify-content: center;
+
+@media screen and (max-width: 640px) {
+    .members {
+        display: flex;
+        justify-content: center;
+    }
+    .centered {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        padding-top: 8px;
+    }
 }
-.centered {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    padding-top: 8px;
-}
+
+/* ------------------------------------------------------ Discog Styles */
+
+@media screen and (max-width: 640px) {
+    .space {
+        justify-content: center;
+        padding-top: 8px;
+    }
 }
 
 /*-------------------------------------------------------Footer Styles */
