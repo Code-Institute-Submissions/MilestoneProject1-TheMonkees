@@ -34,6 +34,7 @@ This page is dedicated to the history of the members of the band and
 how they formed/ met etc. this is a page for the people that would like to know
 more about them rather than just listen to the band playing.
 13/3 Added all information for the band and Band Members.
+20/3 All styles for the about page uploaded to the new format. More media responsivity.
 *credit for the information of "The Band" section comes from Wikipedia*
 
 ### Events Page
