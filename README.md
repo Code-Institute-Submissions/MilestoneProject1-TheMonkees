@@ -1,8 +1,10 @@
 
 # MilestoneProject1-TheMonkees
 
-This is a project that allows users to access a library of The Monkees works, 
-photos, and gain access to the social media of the band from the 60's
+This is a project that allows users to access a library of The Monkees songs, 
+photos, and gain access to the social media of the band from the 60's.
+The project is intended to showcase my first skills in HTML and CSS. Whilst utilising
+some additional plugins such as bootstrap.
 
 ## UX
 
@@ -12,7 +14,12 @@ watch some videos and find out about the band. So i've incorporated an About
 and a Discography page. 
 
 For users wanting a booking i've made a contact us page and a list of "potential" dates 
-for events around the globe.
+for events around the globe, with a link through to a ticket site. This page also incorporates
+a carousel of opensource imagery of concerts to emote a feeling of excitement from a potential
+attendee.
+
+For users wishing to contact and send fan mail, or to potentially book the band for a private 
+function, i've included a contact form on the homepage.
 
 My wireframes for this project can be found here https://app.moqups.com/r9Ff4a83jZ/view
 
@@ -43,8 +50,7 @@ more about them rather than just listen to the band playing.
 This contain's a very simple photo carousel of events and a list of dates
 for a *"tour"* that will redirect the user to an external ticket site
 https://www.ticketmaster.com/the-monkees-tickets/artist/735678
- *credit for the ticket image go to "Grilled Cheese" here https://www.flickr.com/photos/grilledcheese/5986736168*
- 
+*credit for the images go to Pexels.com*
 
 ### Discography
 This page contains media that allows the user to browse through a video,
@@ -64,6 +70,22 @@ such as:
 2. A more robust carousel on the front page, 
 3. A better contact form, 
 4. A more robust Discog library
+
+
+## Technologies Used
+I have utilised some additional technologies for this project.
+1. BootStrap - This is used to streamline the development process and make use of pre-existing technologies for grouping and spacing my pages.
+2. JavaScript & JQuery - These have been utilised for navbar transformations on media queries.
+3. FontAwesome - Has been utilised for Iconography for Social Media links and ease of access.
+
+
+## Testing
+During building the website, I have done extensive testing to make sure that breakpoints and screen layout is as desired for my users.
+I have made sure that all my links correctly work and the links to externals always open a new browser as to keep my site the focus.
+For users wishing to watch and listen to the videos, the media controls all work properly and are easily visible on both mobile and large screen
+For the users wishing to read up more about the band, the links to the social media pages of the band all lead directly to the websites, and to WIKIPEDIA.
+For users wishing to contact the band, the contact form works properly and cannot be only partially filled. At current I cannot figure out how to send a "Complete" message.
+
 
 
 #### Notes 
