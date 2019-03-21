@@ -87,5 +87,15 @@ For users wishing to watch and listen to the videos, the media controls all work
 For the users wishing to read up more about the band, the links to the social media pages of the band all lead directly to the websites, and to WIKIPEDIA.
 For users wishing to contact the band, the contact form works properly and cannot be only partially filled. At current I cannot figure out how to send a "Complete" message.
 
+## Deployment
+During my writing of this project i've had many multiple individual pushes to GitHub and have successfully launched my project on GH Pages.
+Using this as a hosting site i've had the community on slack and a few family members go over my website to test functionality.
+I have deleted my original CSS and index.html from the deployed site, as they were unnecessary and you can see this in the branches. 
+I believe my deployed code to be 100% the same as my development code at current (21/3/19)
 
-
+## Credits
+*credit for the images go to Pexels.com* Rahul Pandit https://www.pexels.com/photo/grayscale-photography-of-people-holding-smartphones-while-taking-videos-1680412/ & Shelagh Murphy https://www.pexels.com/photo/grayscale-photo-of-people-raising-their-hands-1666816/
+*credit for the photo here goes to  NBC & Getty Images* https://www.gettyimages.de/detail/nachrichtenfoto/television-still-shows-the-popular-music-and-nachrichtenfoto/56704603
+*credit for the LOGO on the header goes to Wikimedia* https://commons.wikimedia.org/wiki/File:Monkees-logo.png
+*credit for the information of "The Band" section comes from Wikipedia*
+all information on this page comes from https://en.wikipedia.org/wiki/The_Monkees
