@@ -88,6 +88,3 @@ For users wishing to contact the band, the contact form works properly and canno
 
 
 
-#### Notes 
-Current WIP is the restyling from the first version, the differences can be seen in the now modified
-main.html (formerly index.html) and the new index.html
