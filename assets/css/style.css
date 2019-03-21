@@ -178,6 +178,10 @@ a {
     }
 }
 
+.disco {
+    padding-bottom: 10px;
+}
+
 /*-------------------------------------------------------Footer Styles */
 
 .footer {
@@ -208,7 +212,7 @@ a {
 @media screen and (max-width: 640px) {
     .fa {
         padding: 10px;
-        font-size: 13px;
+        font-size: 18px;
         width: 30px;
         text-align: center;
         text-decoration: none;

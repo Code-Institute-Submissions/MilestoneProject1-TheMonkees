@@ -45,6 +45,7 @@ more about them rather than just listen to the band playing.
 13/3 Added all information for the band and Band Members.
 20/3 All styles for the about page uploaded to the new format. More media responsivity.
 *credit for the information of "The Band" section comes from Wikipedia*
+all information on this page comes from https://en.wikipedia.org/wiki/The_Monkees
 
 ### Events Page
 This contain's a very simple photo carousel of events and a list of dates
